@@ -1,0 +1,44 @@
+body{
+    background: url("https://cdn.pixabay.com/photo/2021/03/08/17/08/fog-6079632_960_720.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    opacity: 0.85;
+    width:400px;
+    height: 160px;
+}
+
+.business-card img{
+    float: left;
+    color: black;
+    width: 130px;
+}
+
+.username, .email, .download-cv{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.username span{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+.email{
+    font-size: 16px;
+}
+
+.download-cv a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.download-cv a:hover{
+    color: #282828;
+}
